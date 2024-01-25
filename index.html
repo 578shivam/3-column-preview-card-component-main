@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+   body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   }
+   .container{
+    display: flex;
+    justify-content: center;
+    width:903px;
+    height: 500px;
+    padding: 70px;
+    padding-inline-start: 197px;
+    margin: 50px;
+    
+   }
+   .box1{
+    background-color: #e28525;
+    border-radius: 7px 0px 0px 7px
+   }
+   .box2{
+    background-color: #016972;
+   }
+
+   .box3{
+    background-color: #054140;
+    border-radius: 3px 7px 7px 3px;
+   }
+   .container h1{
+    color: white;
+    padding: 14px;
+    margin:20px;
+    font-family: 'Fjalla One', sans-serif;
+
+   }
+   .container p{
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    margin: 34px;
+    padding: 8px;
+   font-family: 'Roboto', sans-serif;
+   }
+   .box1 img{
+    margin: 46px;
+   }
+   .box2 img{
+    margin: 46px;
+   }
+   .box3 img{
+    margin: 46px;
+   }
+   .box1 button{
+    color:#e28525;
+   }
+   .box2 button{
+    color: #016972;
+   }
+   .box3 button{
+    color:#054140;
+   }
+   .container button{
+    border-radius: 44px;
+    border: solid;
+    border: white;
+    font-size: 17px;
+    padding: 8px 26px; 
+    margin: 46px; 
+    text-align: center;
+    display: block;
+}
+.container button:hover{
+  color: white;
+  border: solid;
+  background-color: transparent;
+}
+.container a{
+  text-decoration: none;
+}
+   
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="box1">
+      <img src="images/icon-sedans.svg">
+      <h1>SEDANS</h1>
+      <p>choose a sedan for its affordability and excellent fuel economy.Ideal for cruising in the city or on your next road trip.</p>
+      <a href="#">
+        <button>Learn More</button>
+      </a> 
+    </div>
+
+    <div class="box2">
+      <img src="images/icon-suvs.svg">
+      <h1>SUVS</h1>
+      <p>Take an SUV for its spacious interior, power,and versatility.Perfect for your next family vacation and off-road adventures.</p>
+      <a href="#">
+        <button>Learn More</button>
+      </a> 
+    </div>
+
+    <div class="box3">
+      <img src="images/icon-luxury.svg">
+      <h1>LUXURY</h1>
+      <p>Cruise in the best car brands without the bloadted prices. Enjoy the enchanced comfort of a luxury rental and arrive in the style.</p>
+      <a href="#">
+        <button>Learn More</button>
+      </a> 
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">shivam kumar</a>.
+  </div>
+</body>
+</html>
